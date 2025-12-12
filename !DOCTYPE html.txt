@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gloria Akpabio Edem | Clinical Psychology & Data Science</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* General Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #f7f8fa;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header / Hero */
+    header {
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      color: white;
+      text-align: center;
+      padding: 100px 20px 60px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    .btn-primary {
+      background-color: #fcbf49;
+      color: #182848;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .btn-primary:hover {
+      background-color: #ffdd83;
+    }
+
+    /* Navigation */
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      z-index: 100;
+    }
+    nav a {
+      font-weight: 600;
+      color: #333;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #4b6cb7;
+    }
+
+    /* Sections */
+    section {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #182848;
+    }
+
+    /* Grids */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-bottom: 12px;
+      color: #4b6cb7;
+    }
+    .card p {
+      color: #555;
+      line-height: 1.5;
+    }
+
+    /* Contact */
+    .contact {
+      background-color: #182848;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .contact p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: #111827;
+      color: #ddd;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 { font-size: 36px; }
+      header p { font-size: 18px; }
+      section h2 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header>
+    <h1>Clinical Psychology & Data Science</h1>
+    <p>Transforming Human Behaviour Insights into Evidence-Based Solutions</p>
+    <a class="btn-primary" href="#contact">Work With Me</a>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m <strong>Gloria Akpabio Edem</strong>, a Clinical Psychologist, Data Analyst, and Research Consultant.  
+      My work combines behavioural science and data analytics to help organisations make smarter, evidence-based decisions.  
+      I have supported programs delivering trainings, research tools, and mental health frameworks across multiple sectors.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>What I Do</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Clinical Psychology & Mental Health</h3>
+        <p>Trauma-informed programs, TF-CBT interventions, assessments, safeguarding & reporting frameworks.</p>
+      </div>
+      <div class="card">
+        <h3>Data Science & Research</h3>
+        <p>Survey design, RDS methodology, data analysis, evidence synthesis, program evaluation.</p>
+      </div>
+      <div class="card">
+        <h3>Training & Facilitation</h3>
+        <p>High-level technical trainings, workbook & curriculum writing, stakeholder engagement.</p>
+      </div>
+      <div class="card">
+        <h3>Content Development</h3>
+        <p>Research-based articles, public health content, data-driven insights, policy-aligned writing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>RDS Training Package</h3>
+        <p>Complete training slides, workbook, trainer notes for surveys of problem drug users.</p>
+      </div>
+      <div class="card">
+        <h3>12-Session TF-CBT Program (WGI)</h3>
+        <p>Full treatment manual, clinical tools, safeguarding framework.</p>
+      </div>
+      <div class="card">
+        <h3>Treatment Facility Articles</h3>
+        <p>Data-derived insights, thematic reports, content for awareness.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills & Expertise</h2>
+    <div class="grid">
+      <div class="card"><h3>Psychology</h3><p>Clinical assessment, TF-CBT, behavioural analysis, program design.</p></div>
+      <div class="card"><h3>Data Analysis</h3><p>Python, R, SPSS, data cleaning, modelling, reporting, insights.</p></div>
+      <div class="card"><h3>Facilitation</h3><p>Training design, curriculum development, technical workshops.</p></div>
+      <div class="card"><h3>Writing</h3><p>Research writing, editing, public health content, evidence summaries.</p></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Work With Me</h2>
+    <p>I support organisations, NGOs, health programs, and research teams in designing impactful, evidence-based solutions.</p>
+    <p><strong>Email:</strong> gloriaaustinakpabio@gmail.com</p>
+    <p><strong>Phone:</strong> +234 706 805 0330</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Gloria Akpabio Edem — Evidence-Based. Impact-Driven. Human-Centered.
+  </footer>
+
+</body>
+</html>
